@@ -1,0 +1,19 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw19_0813 check signup functionality",
+  "suiteName": "c4",
+  "testName": "c4 fw19_0813 check signup functionality",
+  "testError": "`cy.select()` can only be called on a `<select>`. Your subject is a: `<input type=\"text\" id=\"country\" placeholder=\"Enter Country ID\">`",
+  "testCommands": [
+    "visit https://stately-malasada-231b88.netlify.app/",
+    "get #image",
+    "type https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "get #name",
+    "type Pablo pandey",
+    "get #email",
+    "type abc@ymail.com",
+    "get #country",
+    "select China",
+    "select China"
+  ]
+}

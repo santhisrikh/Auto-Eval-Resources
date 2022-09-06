@@ -1,0 +1,11 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw18_0935 Check navbar and sidebar on news.html",
+  "suiteName": "c4",
+  "testName": "c4 fw18_0935 Check navbar and sidebar on news.html",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `#navbar`, but never found it.",
+  "testCommands": [
+    "get #navbar",
+    "assert expected **#navbar** to exist in the DOM"
+  ]
+}

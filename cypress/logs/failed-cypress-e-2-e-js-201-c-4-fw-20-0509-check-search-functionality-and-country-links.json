@@ -1,0 +1,20 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw20_0509 check search functionality and country links",
+  "suiteName": "c4",
+  "testName": "c4 fw20_0509 check search functionality and country links",
+  "testError": "Timed out retrying after 500ms: Too many elements found. Found '20', expected '19'.",
+  "testCommands": [
+    "get #search",
+    "type twitter{enter}",
+    "request twitter{enter}",
+    "get #news_container",
+    "children ",
+    "assert expected **undefined** to have a length of **20** but got **0**",
+    "get #in",
+    "click ",
+    "get #news_container",
+    "children ",
+    "assert expected **[ <div>, 19 more... ]** to have a length of **19** but got **20**"
+  ]
+}

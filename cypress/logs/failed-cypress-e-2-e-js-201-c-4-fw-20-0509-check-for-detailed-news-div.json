@@ -1,0 +1,11 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw20_0509 Check for detailed news div",
+  "suiteName": "c4",
+  "testName": "c4 fw20_0509 Check for detailed news div",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `#show_news`, but never found it.",
+  "testCommands": [
+    "get #show_news",
+    "assert expected **#show_news** to exist in the DOM"
+  ]
+}

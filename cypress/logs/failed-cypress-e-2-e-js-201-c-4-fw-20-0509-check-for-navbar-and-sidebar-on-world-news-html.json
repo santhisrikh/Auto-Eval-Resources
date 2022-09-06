@@ -1,0 +1,26 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw20_0509 Check for Navbar and sidebar on worldNews.html",
+  "suiteName": "c4",
+  "testName": "c4 fw20_0509 Check for Navbar and sidebar on worldNews.html",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `#image`, but never found it.",
+  "testCommands": [
+    "visit https://papaya-clafoutis-65295d.netlify.app/worldNews.html",
+    "request https://papaya-clafoutis-65295d.netlify.app/worldNews.html",
+    "get #navbar",
+    "children #search",
+    "assert expected **<input#search>** to exist in the DOM",
+    "get #in",
+    "assert expected **<h3#in.links>** to exist in the DOM",
+    "get #ch",
+    "assert expected **<h3#ch.links>** to exist in the DOM",
+    "get #uk",
+    "assert expected **<h3#uk.links>** to exist in the DOM",
+    "get #nz",
+    "assert expected **<h3#nz.links>** to exist in the DOM",
+    "get #sidebar",
+    "assert expected **<div#sidebar>** to exist in the DOM",
+    "get #image",
+    "assert expected **#image** to have attribute **src**"
+  ]
+}

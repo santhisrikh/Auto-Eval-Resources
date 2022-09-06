@@ -1,0 +1,8 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw19_0594 check user is stored in local storage or not",
+  "suiteName": "c4",
+  "testName": "c4 fw19_0594 check user is stored in local storage or not",
+  "testError": "Cannot read properties of null (reading 'name')",
+  "testCommands": []
+}

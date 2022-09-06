@@ -1,0 +1,16 @@
+{
+  "specName": "cypress/e2e/js201.cy.js",
+  "title": "fw18_0935 check signup functionality",
+  "suiteName": "c4",
+  "testName": "c4 fw18_0935 check signup functionality",
+  "testError": "Timed out retrying after 500ms: Expected to find element: `#email`, but never found it.",
+  "testCommands": [
+    "visit https://nimble-froyo-b28a71.netlify.app/",
+    "uncaught exception SyntaxError: Unexpected token '('",
+    "get #image",
+    "type https://cdn-icons-png.flaticon.com/512/149/149071.png",
+    "get #name",
+    "type Pablo pandey",
+    "get #email"
+  ]
+}
