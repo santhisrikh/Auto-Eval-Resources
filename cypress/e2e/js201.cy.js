@@ -167,15 +167,7 @@ function c4TestCase() {
             }
           }
         );
-        // cy.task("readdir", "cypress/logs").then((files) => {
-        //   files.forEach((file) => {
-        //     cy.readFile(`cypress/logs/${file}`).then((res) =>
-        //       cy.writeFile("log.json", `\n${JSON.stringify(res)},`, {
-        //         flag: "a+",
-        //       })
-        //     );
-        //   });
-        // });
+       
       });
     });
   });
